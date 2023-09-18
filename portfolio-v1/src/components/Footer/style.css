@@ -1,0 +1,52 @@
+.footer {
+    background-color: #ffffff;
+    height: 182px;
+    position: relative;
+    width: 1152px;
+  }
+  
+  .footer .github {
+    height: 30px;
+    left: 480px;
+    position: absolute;
+    top: 51px;
+    width: 30px;
+  }
+  
+  .footer .linkedin {
+    height: 30px;
+    left: 630px;
+    position: absolute;
+    top: 51px;
+    width: 30px;
+  }
+  
+  .footer .email {
+    height: 30px;
+    left: 555px;
+    position: absolute;
+    top: 51px;
+    width: 37px;
+  }
+  
+  .footer .insta {
+    height: 30px;
+    left: 524px;
+    position: absolute;
+    top: 51px;
+    width: 30px;
+  }
+  
+  .footer .text-wrapper {
+    color: var(--dark);
+    font-family: "Heebo", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    left: 464px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 106px;
+  }
+  
