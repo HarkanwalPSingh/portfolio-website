@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "description": "Portfolio Project - React, HTML, CSS, JS",
     "source": "./index.html",
-    "homepage": "https://harkanwalpsingh.github.io/portfolio",
+    "homepage": "https://harkanwalpsingh.github.io/portfolio-website",
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -b master -d build",
+        "deploy": "gh-pages -d dist",
         "build": "parcel build --public-url ./ --no-scope-hoist",
         "dev": "parcel",
         "storybook": "storybook dev -p 6006",
