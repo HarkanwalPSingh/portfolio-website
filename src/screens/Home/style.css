@@ -1,4 +1,9 @@
-.home {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .home {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -12,7 +17,7 @@
     position: relative;
     width: 1152px;
   }
-  
+
   .home .overlap {
     height: 256px;
     left: 755px;

@@ -13,7 +13,7 @@ export const Home = () => {
           <img className="img" alt="Ellipse" src="harkanwal-profile.png" />
         </div>
         <div className="overlap-group">
-          <div className="text-wrapper-2">Download Resume</div>
+          <div className="text-wrapper-2"><a href="HarkanwalpreetSinghResume.pdf" download>Download Resume</a></div>
         </div>
         <div className="greeting">
           <div className="greeting-2">
