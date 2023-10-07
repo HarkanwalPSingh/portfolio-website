@@ -27166,6 +27166,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _footer = require("../../components/Footer");
+var _twitter = require("../../components/Twitter");
 var _styleCss = require("./style.css");
 const Home = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27180,7 +27181,7 @@ const Home = ()=>{
                             className: "ellipse"
                         }, void 0, false, {
                             fileName: "src/screens/Home/Home.jsx",
-                            lineNumber: 10,
+                            lineNumber: 12,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27189,13 +27190,13 @@ const Home = ()=>{
                             src: "harkanwal-profile.png"
                         }, void 0, false, {
                             fileName: "src/screens/Home/Home.jsx",
-                            lineNumber: 11,
+                            lineNumber: 13,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 9,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27205,12 +27206,12 @@ const Home = ()=>{
                         children: "Download Resume"
                     }, void 0, false, {
                         fileName: "src/screens/Home/Home.jsx",
-                        lineNumber: 14,
+                        lineNumber: 16,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 13,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27221,19 +27222,19 @@ const Home = ()=>{
                             "Hi, I am Harkanwal,",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/screens/Home/Home.jsx",
-                                lineNumber: 19,
+                                lineNumber: 21,
                                 columnNumber: 13
                             }, undefined),
                             "Software Engineer"
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/Home/Home.jsx",
-                        lineNumber: 17,
+                        lineNumber: 19,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 16,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27241,7 +27242,7 @@ const Home = ()=>{
                     children: "I'm a software engineer based in Bengaluru with 5 years of experience in the software industry. My area of focus for the past few years have been back-end development. Over the years I have worked on various backend frameworks but mostly based on Python, Java and lately Scala."
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 23,
+                    lineNumber: 25,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27252,7 +27253,7 @@ const Home = ()=>{
                             children: "Works"
                         }, void 0, false, {
                             fileName: "src/screens/Home/Home.jsx",
-                            lineNumber: 28,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27260,13 +27261,13 @@ const Home = ()=>{
                             children: "Blog"
                         }, void 0, false, {
                             fileName: "src/screens/Home/Home.jsx",
-                            lineNumber: 29,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 27,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27274,7 +27275,7 @@ const Home = ()=>{
                     children: "Contact"
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 31,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27282,14 +27283,21 @@ const Home = ()=>{
                     children: "Featured works"
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 32,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footer.Footer), {
                     className: "footer-instance"
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 33,
+                    lineNumber: 35,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _twitter.TwitterEmbedComponent), {
+                    className: "twitter-embed"
+                }, void 0, false, {
+                    fileName: "src/screens/Home/Home.jsx",
+                    lineNumber: 36,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27299,37 +27307,44 @@ const Home = ()=>{
                             className: "overlap-7",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "text-wrapper-14",
-                                children: "Portfolio Project 2023"
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "https://github.com/HarkanwalPSingh/portfolio-website",
+                                    children: "Portfolio Project 2023"
+                                }, void 0, false, {
+                                    fileName: "src/screens/Home/Home.jsx",
+                                    lineNumber: 39,
+                                    columnNumber: 46
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Home/Home.jsx",
-                                lineNumber: 36,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/screens/Home/Home.jsx",
-                            lineNumber: 35,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "text-wrapper-16",
+                            className: "text-wrapper-15",
                             children: "Web Development"
                         }, void 0, false, {
                             fileName: "src/screens/Home/Home.jsx",
-                            lineNumber: 38,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 34,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     className: "text-wrapper-21",
-                    children: "This project is a simple web application that allows users to create and manage to-do lists. The application is built using HTML, CSS, and JavaScript."
+                    children: "This project is a simple web application hosted on Github Pages, built solely for the purpose of showcasing my projects. This application is built using HTML, CSS, and JavaScript(React, Storybook)."
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 40,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27338,7 +27353,7 @@ const Home = ()=>{
                     src: "vector-line.svg"
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 43,
+                    lineNumber: 47,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27347,7 +27362,7 @@ const Home = ()=>{
                     src: "vector-line.svg"
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 44,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27356,18 +27371,83 @@ const Home = ()=>{
                     src: "sample-image.svg"
                 }, void 0, false, {
                     fileName: "src/screens/Home/Home.jsx",
-                    lineNumber: 45,
+                    lineNumber: 49,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "overlap-8",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "overlap-9",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-16",
+                                children: "TwitterAPI V2"
+                            }, void 0, false, {
+                                fileName: "src/screens/Home/Home.jsx",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/screens/Home/Home.jsx",
+                            lineNumber: 51,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-17",
+                            children: "Serverless App"
+                        }, void 0, false, {
+                            fileName: "src/screens/Home/Home.jsx",
+                            lineNumber: 54,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/Home/Home.jsx",
+                    lineNumber: 50,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-wrapper-22",
+                    children: [
+                        "The Twitter V2 project, is me experimenting with some of the AI tools. The local version is available on Github but this project is hosted on GCP. The key highlights of this project are:",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Using AI tools to create tweet's image and context"
+                        }, void 0, false, {
+                            fileName: "src/screens/Home/Home.jsx",
+                            lineNumber: 59,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Triggering Serverless Functions on Cloud, based on CRON schedule"
+                        }, void 0, false, {
+                            fileName: "src/screens/Home/Home.jsx",
+                            lineNumber: 60,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/Home/Home.jsx",
+                    lineNumber: 56,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "vector-5",
+                    alt: "Vector",
+                    src: "vector-line.svg"
+                }, void 0, false, {
+                    fileName: "src/screens/Home/Home.jsx",
+                    lineNumber: 62,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/screens/Home/Home.jsx",
-            lineNumber: 8,
+            lineNumber: 10,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/screens/Home/Home.jsx",
-        lineNumber: 7,
+        lineNumber: 9,
         columnNumber: 5
     }, undefined);
 };
@@ -27380,7 +27460,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Footer":"cjGwk","./style.css":"8msK4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cjGwk":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Footer":"cjGwk","./style.css":"8msK4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../components/Twitter":"5nlJ6"}],"cjGwk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Footer", ()=>(0, _footer.Footer));
@@ -28108,6 +28188,522 @@ module.exports = require("9e039173d01172ab");
     exports.setSignature = setSignature;
 })();
 
-},{}],"8msK4":[function() {},{}]},["4s3Ar","1xC6H","d8Dch"], "d8Dch", "parcelRequire4833")
+},{}],"8msK4":[function() {},{}],"5nlJ6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "TwitterEmbedComponent", ()=>(0, _twitter.TwitterEmbedComponent));
+var _twitter = require("./Twitter");
+
+},{"./Twitter":"5Pnic","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5Pnic":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cefc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cefc.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "TwitterEmbedComponent", ()=>TwitterEmbedComponent);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactTwitterEmbed = require("react-twitter-embed");
+const TwitterEmbedComponent = ({ className })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: `twitter ${className}`,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitterEmbed.TwitterTimelineEmbed), {
+            sourceType: "profile",
+            screenName: "factbot_cereal",
+            options: {
+                height: 350
+            }
+        }, void 0, false, {
+            fileName: "src/components/Twitter/Twitter.jsx",
+            lineNumber: 7,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Twitter/Twitter.jsx",
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = TwitterEmbedComponent;
+var _c;
+$RefreshReg$(_c, "TwitterEmbedComponent");
+
+  $parcel$ReactRefreshHelpers$cefc.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-twitter-embed":"ap6dp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ap6dp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "TwitterDMButton", ()=>TwitterDMButton);
+parcelHelpers.export(exports, "TwitterFollowButton", ()=>TwitterFollowButton);
+parcelHelpers.export(exports, "TwitterHashtagButton", ()=>TwitterHashtagButton);
+parcelHelpers.export(exports, "TwitterMentionButton", ()=>TwitterMentionButton);
+parcelHelpers.export(exports, "TwitterMomentShare", ()=>TwitterMomentShare);
+parcelHelpers.export(exports, "TwitterOnAirButton", ()=>TwitterOnAirButton);
+parcelHelpers.export(exports, "TwitterShareButton", ()=>TwitterShareButton);
+parcelHelpers.export(exports, "TwitterTimelineEmbed", ()=>TwitterTimelineEmbed);
+parcelHelpers.export(exports, "TwitterTweetEmbed", ()=>TwitterTweetEmbed);
+parcelHelpers.export(exports, "TwitterVideoEmbed", ()=>TwitterVideoEmbed);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var twitterWidgetJs = "https://platform.twitter.com/widgets.js";
+var methodName = "createTimeline";
+var TwitterTimelineEmbed = function TwitterTimelineEmbed(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    var buildOptions = function buildOptions() {
+        var options = Object.assign({}, props.options);
+        if (props !== null && props !== void 0 && props.autoHeight) {
+            var _ref$current, _ref$current$parentNo;
+            options.height = (_ref$current = ref.current) === null || _ref$current === void 0 ? void 0 : (_ref$current$parentNo = _ref$current.parentNode) === null || _ref$current$parentNo === void 0 ? void 0 : _ref$current$parentNo.offsetHeight;
+        }
+        options = Object.assign({}, options, {
+            theme: props === null || props === void 0 ? void 0 : props.theme,
+            linkColor: props === null || props === void 0 ? void 0 : props.linkColor,
+            borderColor: props === null || props === void 0 ? void 0 : props.borderColor,
+            lang: props === null || props === void 0 ? void 0 : props.lang,
+            tweetLimit: props === null || props === void 0 ? void 0 : props.tweetLimit,
+            ariaPolite: props === null || props === void 0 ? void 0 : props.ariaPolite
+        });
+        return options;
+    };
+    var buildChromeOptions = function buildChromeOptions(options) {
+        options.chrome = "";
+        if (props.noHeader) options.chrome = options.chrome + " noheader";
+        if (props.noFooter) options.chrome = options.chrome + " nofooter";
+        if (props.noBorders) options.chrome = options.chrome + " noborders";
+        if (props.noScrollbar) options.chrome = options.chrome + " noscrollbar";
+        if (props.transparent) options.chrome = options.chrome + " transparent";
+        return options;
+    };
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName]) {
+                    console.error("Method " + methodName + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                var options = buildOptions();
+                options = buildChromeOptions(options);
+                window.twttr.widgets[methodName]({
+                    sourceType: props.sourceType,
+                    screenName: props.screenName,
+                    userId: props.userId,
+                    ownerScreenName: props.ownerScreenName,
+                    slug: props.slug,
+                    id: props.id || props.widgetId,
+                    url: props.url
+                }, ref === null || ref === void 0 ? void 0 : ref.current, options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$1 = "createShareButton";
+var TwitterShareButton = function TwitterShareButton(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$1]) {
+                    console.error("Method " + methodName$1 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$1](props.url, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$2 = "createFollowButton";
+var TwitterFollowButton = function TwitterFollowButton(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$2]) {
+                    console.error("Method " + methodName$2 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$2](props.screenName, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$3 = "createHashtagButton";
+var TwitterHashtagButton = function TwitterHashtagButton(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$3]) {
+                    console.error("Method " + methodName$3 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$3](props.tag, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$4 = "createMentionButton";
+var TwitterMentionButton = function TwitterMentionButton(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$4]) {
+                    console.error("Method " + methodName$4 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$4](props.screenName, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$5 = "createTweet";
+var TwitterTweetEmbed = function TwitterTweetEmbed(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$5]) {
+                    console.error("Method " + methodName$5 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$5](props.tweetId, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$6 = "createMoment";
+var TwitterMomentShare = function TwitterMomentShare(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$6]) {
+                    console.error("Method " + methodName$6 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$6](props.momentId, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$7 = "createDMButton";
+var TwitterDMButton = function TwitterDMButton(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$7]) {
+                    console.error("Method " + methodName$7 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$7](props.id, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    if (isComponentMounted) {
+                        setLoading(false);
+                        if (props.onLoad) props.onLoad(element);
+                    }
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$8 = "createVideo";
+var TwitterVideoEmbed = function TwitterVideoEmbed(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$8]) {
+                    console.error("Method " + methodName$8 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$8](props.id, ref === null || ref === void 0 ? void 0 : ref.current).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+var methodName$9 = "createPeriscopeOnAirButton";
+var TwitterOnAirButton = function TwitterOnAirButton(props) {
+    var ref = (0, _reactDefault.default).useRef(null);
+    var _React$useState = (0, _reactDefault.default).useState(true), loading = _React$useState[0], setLoading = _React$useState[1];
+    (0, _reactDefault.default).useEffect(function() {
+        var isComponentMounted = true;
+        var script = require("6e0b1d2664670364");
+        script(twitterWidgetJs, "twitter-embed", function() {
+            if (!window.twttr) {
+                console.error("Failure to load window.twttr, aborting load");
+                return;
+            }
+            if (isComponentMounted) {
+                if (!window.twttr.widgets[methodName$9]) {
+                    console.error("Method " + methodName$9 + " is not present anymore in twttr.widget api");
+                    return;
+                }
+                window.twttr.widgets[methodName$9](props.username, ref === null || ref === void 0 ? void 0 : ref.current, props.options).then(function(element) {
+                    setLoading(false);
+                    if (props.onLoad) props.onLoad(element);
+                });
+            }
+        });
+        return function() {
+            isComponentMounted = false;
+        };
+    }, []);
+    return (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, loading && (0, _reactDefault.default).createElement((0, _reactDefault.default).Fragment, null, props.placeholder), (0, _reactDefault.default).createElement("div", {
+        ref: ref
+    }));
+};
+
+},{"react":"21dqq","6e0b1d2664670364":"bC5wQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bC5wQ":[function(require,module,exports) {
+/*!
+  * $script.js JS loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz 2014 | License MIT
+  */ (function(name, definition) {
+    if (0, module.exports) module.exports = definition();
+    else if (typeof define == "function" && define.amd) define(definition);
+    else this[name] = definition();
+})("$script", function() {
+    var doc = document, head = doc.getElementsByTagName("head")[0], s = "string", f = false, push = "push", readyState = "readyState", onreadystatechange = "onreadystatechange", list = {}, ids = {}, delay = {}, scripts = {}, scriptpath, urlArgs;
+    function every(ar, fn) {
+        for(var i = 0, j = ar.length; i < j; ++i)if (!fn(ar[i])) return f;
+        return 1;
+    }
+    function each(ar, fn) {
+        every(ar, function(el) {
+            fn(el);
+            return 1;
+        });
+    }
+    function $script(paths, idOrDone, optDone) {
+        paths = paths[push] ? paths : [
+            paths
+        ];
+        var idOrDoneIsDone = idOrDone && idOrDone.call, done = idOrDoneIsDone ? idOrDone : optDone, id = idOrDoneIsDone ? paths.join("") : idOrDone, queue = paths.length;
+        function loopFn(item) {
+            return item.call ? item() : list[item];
+        }
+        function callback() {
+            if (!--queue) {
+                list[id] = 1;
+                done && done();
+                for(var dset in delay)every(dset.split("|"), loopFn) && !each(delay[dset], loopFn) && (delay[dset] = []);
+            }
+        }
+        setTimeout(function() {
+            each(paths, function loading(path, force) {
+                if (path === null) return callback();
+                if (!force && !/^https?:\/\//.test(path) && scriptpath) path = path.indexOf(".js") === -1 ? scriptpath + path + ".js" : scriptpath + path;
+                if (scripts[path]) {
+                    if (id) ids[id] = 1;
+                    return scripts[path] == 2 ? callback() : setTimeout(function() {
+                        loading(path, true);
+                    }, 0);
+                }
+                scripts[path] = 1;
+                if (id) ids[id] = 1;
+                create(path, callback);
+            });
+        }, 0);
+        return $script;
+    }
+    function create(path, fn) {
+        var el = doc.createElement("script"), loaded;
+        el.onload = el.onerror = el[onreadystatechange] = function() {
+            if (el[readyState] && !/^c|loade/.test(el[readyState]) || loaded) return;
+            el.onload = el[onreadystatechange] = null;
+            loaded = 1;
+            scripts[path] = 2;
+            fn();
+        };
+        el.async = 1;
+        el.src = urlArgs ? path + (path.indexOf("?") === -1 ? "?" : "&") + urlArgs : path;
+        head.insertBefore(el, head.lastChild);
+    }
+    $script.get = create;
+    $script.order = function(scripts, id, done) {
+        (function callback(s) {
+            s = scripts.shift();
+            !scripts.length ? $script(s, id, done) : $script(s, callback);
+        })();
+    };
+    $script.path = function(p) {
+        scriptpath = p;
+    };
+    $script.urlArgs = function(str) {
+        urlArgs = str;
+    };
+    $script.ready = function(deps, ready, req) {
+        deps = deps[push] ? deps : [
+            deps
+        ];
+        var missing = [];
+        !each(deps, function(dep) {
+            list[dep] || missing[push](dep);
+        }) && every(deps, function(dep) {
+            return list[dep];
+        }) ? ready() : !function(key) {
+            delay[key] = delay[key] || [];
+            delay[key][push](ready);
+            req && req(missing);
+        }(deps.join("|"));
+        return $script;
+    };
+    $script.done = function(idOrDone) {
+        $script([
+            null
+        ], idOrDone);
+    };
+    return $script;
+});
+
+},{}]},["4s3Ar","1xC6H","d8Dch"], "d8Dch", "parcelRequire4833")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
