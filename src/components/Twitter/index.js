@@ -1,0 +1,1 @@
+export { TwitterEmbedComponent } from "./Twitter"
