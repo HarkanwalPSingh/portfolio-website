@@ -5,13 +5,13 @@
 > **Prerequisites:**
 > The following steps require [NodeJS](https://nodejs.org/en/) to be installed on your system
 
-##### Installing Dependencies
+#### Installing Dependencies
 
 ```shell
 npm install
 ```
 
-##### Running dev mode
+#### Running dev mode
 
 ```shell
 npm run dev
@@ -19,13 +19,13 @@ npm run dev
 
 Dev link: [http://localhost:1234/](http://localhost:1234/)
 
-##### Building the project
+#### Building the project
 
 ```shell
 npm run build
 ```
 
-##### Deploying the project
+#### Deploying the project
 
 ```shell
 npm run deploy
@@ -35,7 +35,7 @@ This also publishes the changes to Github Pages. See [package.json](package.json
 
 ## Storybook
 
-##### Viewing storybook
+#### Viewing storybook
 
 ```shell
 npm run storybook
@@ -43,7 +43,7 @@ npm run storybook
 
 Storybook link: [http://localhost:6006/](http://localhost:6006/)
 
-##### Building storybook
+#### Building storybook
 
 ```shell
 npm run build-storybook
