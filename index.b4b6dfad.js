@@ -27203,7 +27203,15 @@ const Home = ()=>{
                     className: "overlap-group",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "text-wrapper-2",
-                        children: "Download Resume"
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "HarkanwalpreetSinghResume.pdf",
+                            download: true,
+                            children: "Download Resume"
+                        }, void 0, false, {
+                            fileName: "src/screens/Home/Home.jsx",
+                            lineNumber: 16,
+                            columnNumber: 43
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/Home/Home.jsx",
                         lineNumber: 16,
@@ -27460,7 +27468,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Footer":"cjGwk","./style.css":"8msK4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../components/Twitter":"5nlJ6"}],"cjGwk":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Footer":"cjGwk","../../components/Twitter":"5nlJ6","./style.css":"8msK4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cjGwk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Footer", ()=>(0, _footer.Footer));
@@ -28188,7 +28196,7 @@ module.exports = require("9e039173d01172ab");
     exports.setSignature = setSignature;
 })();
 
-},{}],"8msK4":[function() {},{}],"5nlJ6":[function(require,module,exports) {
+},{}],"5nlJ6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TwitterEmbedComponent", ()=>(0, _twitter.TwitterEmbedComponent));
@@ -28704,6 +28712,6 @@ var TwitterOnAirButton = function TwitterOnAirButton(props) {
     return $script;
 });
 
-},{}]},["4s3Ar","1xC6H","d8Dch"], "d8Dch", "parcelRequire4833")
+},{}],"8msK4":[function() {},{}]},["4s3Ar","1xC6H","d8Dch"], "d8Dch", "parcelRequire4833")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

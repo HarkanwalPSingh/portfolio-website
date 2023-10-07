@@ -58,6 +58,11 @@
   left: 464px;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .home {
   background-color: #fff;
   flex-direction: row;
