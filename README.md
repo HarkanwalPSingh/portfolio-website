@@ -3,42 +3,47 @@
 ## Getting started
 
 > **Prerequisites:**
-> The following steps require [NodeJS](https://nodejs.org/en/) to be installed on your system, so please
-> install it beforehand if you haven't already.
+> The following steps require [NodeJS](https://nodejs.org/en/) to be installed on your system
 
-To get started with your project, you'll first need to install the dependencies with:
+##### Installing Dependencies
 
 ```shell
 npm install
 ```
 
-Then, you'll be able to run a development version of the project with:
+##### Running dev mode
 
 ```shell
 npm run dev
 ```
 
-After a few seconds, your project should be accessible at the address
-[http://localhost:1234/](http://localhost:1234/)
+Dev link: [http://localhost:1234/](http://localhost:1234/)
 
-If you are satisfied with the result, you can finally build the project for release with:
+##### Building the project
 
 ```shell
 npm run build
 ```
 
+##### Deploying the project
+
+```shell
+npm run deploy
+```
+
+This also publishes the changes to Github Pages. See [package.json](package.json) for configuring the Github Pages link.
+
 ## Storybook
 
-After installing, you can view your storybook by running:
+##### Viewing storybook
 
 ```shell
 npm run storybook
 ```
 
-After a few seconds, your storybook should be accessible at the address
-[http://localhost:6006/](http://localhost:6006/)
+Storybook link: [http://localhost:6006/](http://localhost:6006/)
 
-You can build your storybook for release with:
+##### Building storybook
 
 ```shell
 npm run build-storybook
