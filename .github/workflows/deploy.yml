@@ -35,9 +35,9 @@ jobs:
           # cache: 'npm'
           
       - name: Install dependencies
-        run: npm install
-        # Note: using 'npm install' instead of 'npm ci' because package-lock.json is gitignored
-        # For faster, more reliable builds: remove package-lock.json from .gitignore and use 'npm ci'
+        run: npm install --legacy-peer-deps
+        # Note: using --legacy-peer-deps to handle react-twitter-embed compatibility with React 19
+        # Also using 'npm install' instead of 'npm ci' because package-lock.json is gitignored
         
       - name: Build
         run: npm run build
