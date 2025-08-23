@@ -27,11 +27,14 @@ npm run build
 
 #### Deploying the project
 
+**Automatic Deployment:** The website automatically deploys to GitHub Pages when changes are pushed to the `main` branch via GitHub Actions.
+
+**Manual Deployment (if needed):**
 ```shell
-npm run deploy
+npm run deploy:manual
 ```
 
-This also publishes the changes to Github Pages. See [package.json](package.json) for configuring the Github Pages link.
+See [package.json](package.json) for configuring the GitHub Pages link.
 
 ## Storybook
 

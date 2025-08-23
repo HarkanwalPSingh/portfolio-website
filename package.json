@@ -5,12 +5,11 @@
     "source": "./index.html",
     "homepage": "https://harkanwalpsingh.github.io/portfolio-website",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
         "build": "parcel build --public-url ./ --no-scope-hoist",
         "dev": "parcel",
         "storybook": "storybook dev -p 6006",
-        "build-storybook": "storybook build"
+        "build-storybook": "storybook build",
+        "deploy:manual": "npm run build && gh-pages -d dist"
     },
     "dependencies": {
         "gh-pages": "^6.0.0",
