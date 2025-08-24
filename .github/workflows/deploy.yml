@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Next.js Portfolio to GitHub Pages
 
 on:
   push:
@@ -30,17 +30,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          # Note: caching disabled because package-lock.json is gitignored
-          # To enable caching: remove package-lock.json from .gitignore and use:
-          # cache: 'npm'
+          cache: 'npm'
           
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
-        # Note: using --legacy-peer-deps to handle react-twitter-embed compatibility with React 19
-        # Also using 'npm install' instead of 'npm ci' because package-lock.json is gitignored
+        run: npm ci
         
-      - name: Build
+      - name: Build Next.js Application
         run: npm run build
+        env:
+          NODE_ENV: production
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -48,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./out
 
   # Deployment job
   deploy:
