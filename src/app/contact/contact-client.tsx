@@ -334,7 +334,7 @@ export function ContactClient() {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <Button variant="outline" className="w-full justify-start" asChild>
-                    <a href="/resume.pdf" target="_blank">
+                    <a href="/portfolio-website/resume.pdf" target="_blank">
                       <Badge variant="secondary" className="mr-2">PDF</Badge>
                       Download Resume
                     </a>

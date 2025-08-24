@@ -98,7 +98,7 @@ export default function AboutPage() {
               </div>
               <div className="flex flex-wrap items-center justify-center gap-4">
                 <Button size="lg" asChild>
-                  <a href="/resume.pdf" target="_blank" className="inline-flex items-center gap-2">
+                  <a href="/portfolio-website/resume.pdf" target="_blank" className="inline-flex items-center gap-2">
                     <Download className="h-4 w-4" />
                     Download Resume
                   </a>
@@ -257,7 +257,7 @@ export default function AboutPage() {
             
             <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
               <Button size="sm" asChild>
-                <a href="/resume.pdf" target="_blank" className="gap-2">
+                <a href="/portfolio-website/resume.pdf" target="_blank" className="gap-2">
                   <Download className="h-4 w-4" />
                   Download Resume
                 </a>

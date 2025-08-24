@@ -33,7 +33,7 @@ export default function Home() {
 
           <div className="mb-12 flex flex-wrap items-center gap-4">
             <Button size="lg" asChild>
-              <a href="/resume.pdf" target="_blank" className="inline-flex items-center gap-2">
+              <a href="/portfolio-website/resume.pdf" target="_blank" className="inline-flex items-center gap-2">
                 <Download className="h-4 w-4" />
                 Download Resume
               </a>
