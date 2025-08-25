@@ -7,7 +7,8 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { MDXContent } from '@/components/mdx-content';
 import { generateSEO } from '@/lib/seo';
-import { Github, Linkedin, Mail, X, Download, MapPin, Calendar } from 'lucide-react';
+import { Mail, Download, MapPin, Calendar } from 'lucide-react';
+import { SiGithub, SiLinkedin, SiX } from 'react-icons/si';
 
 export async function generateMetadata() {
   const page = allPages.find((page) => page.slug === 'about');
@@ -273,19 +274,19 @@ export default function AboutPage() {
             <div className="flex flex-wrap items-center justify-center gap-3">
               <Button variant="outline" size="sm" asChild>
                 <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <Github className="h-4 w-4" />
+                  <SiGithub className="h-4 w-4" />
                   GitHub
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
                 <a href="https://www.linkedin.com/in/harkanwalpsingh/" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <Linkedin className="h-4 w-4" />
+                  <SiLinkedin className="h-4 w-4" />
                   LinkedIn
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
                 <a href="https://twitter.com/factbot_cereal" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <X className="h-4 w-4" />
+                  <SiX className="h-4 w-4" />
                   X
                 </a>
               </Button>

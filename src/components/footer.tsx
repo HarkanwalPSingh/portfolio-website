@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Github, Linkedin, Mail, X } from 'lucide-react';
+import { Mail } from 'lucide-react';
+import { SiGithub, SiLinkedin, SiX } from 'react-icons/si';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -10,9 +11,9 @@ const navigation = [
 ];
 
 const social = [
-  { name: 'GitHub', href: 'https://github.com/HarkanwalPSingh', icon: Github },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/harkanwalpsingh/', icon: Linkedin },
-  { name: 'X', href: 'https://twitter.com/factbot_cereal', icon: X },
+  { name: 'GitHub', href: 'https://github.com/HarkanwalPSingh', icon: SiGithub },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/harkanwalpsingh/', icon: SiLinkedin },
+  { name: 'X', href: 'https://twitter.com/factbot_cereal', icon: SiX },
   { name: 'Email', href: 'mailto:harkanwal.p.singh@gmail.com', icon: Mail },
 ];
 

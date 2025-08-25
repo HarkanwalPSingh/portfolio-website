@@ -14,10 +14,9 @@ import {
   User, 
   ArrowLeft,
   Share2,
-  X,
-  Linkedin,
   Link as LinkIcon
 } from 'lucide-react';
+import { SiX, SiLinkedin } from 'react-icons/si';
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -221,7 +220,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         rel="noopener noreferrer"
                         className="gap-2"
                       >
-                        <X className="h-4 w-4" />
+                        <SiX className="h-4 w-4" />
                         X
                       </a>
                     </Button>
@@ -232,7 +231,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         rel="noopener noreferrer"
                         className="gap-2"
                       >
-                        <Linkedin className="h-4 w-4" />
+                        <SiLinkedin className="h-4 w-4" />
                         LinkedIn
                       </a>
                     </Button>
