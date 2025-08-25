@@ -42,7 +42,7 @@ export default function Home() {
                   <Button variant="outline" size="lg" asChild>
                     <Link href="/projects">View My Work</Link>
                   </Button>
-                  <Button variant="ghost" size="lg" asChild>
+                  <Button variant="outline" size="lg" asChild>
                     <Link href="/contact">Contact Me</Link>
                   </Button>
                 </div>
