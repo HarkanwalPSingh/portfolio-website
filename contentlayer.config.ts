@@ -4,75 +4,6 @@ import rehypePrettyCode from 'rehype-pretty-code';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
-export const Post = defineDocumentType(() => ({
-  name: 'Post',
-  filePathPattern: 'blog/**/*.{md,mdx}',
-  contentType: 'mdx',
-  fields: {
-    title: {
-      type: 'string',
-      description: 'The title of the post',
-      required: true,
-    },
-    description: {
-      type: 'string',
-      description: 'A short description of the post',
-      required: true,
-    },
-    date: {
-      type: 'date',
-      description: 'The date of the post',
-      required: true,
-    },
-    published: {
-      type: 'boolean',
-      description: 'Whether the post is published',
-      required: false,
-      default: true,
-    },
-    featured: {
-      type: 'boolean',
-      description: 'Whether the post is featured',
-      required: false,
-      default: false,
-    },
-    tags: {
-      type: 'list',
-      of: { type: 'string' },
-      description: 'List of tags for the post',
-      required: false,
-    },
-    image: {
-      type: 'string',
-      description: 'The cover image of the post',
-      required: false,
-    },
-    author: {
-      type: 'string',
-      description: 'The author of the post',
-      required: false,
-      default: 'Harkanwal Singh',
-    },
-  },
-  computedFields: {
-    url: {
-      type: 'string',
-      resolve: (doc) => `/blog/${doc._raw.flattenedPath.replace('blog/', '')}`,
-    },
-    slug: {
-      type: 'string',
-      resolve: (doc) => doc._raw.flattenedPath.replace('blog/', ''),
-    },
-    readingTime: {
-      type: 'number',
-      resolve: (doc) => {
-        const wordsPerMinute = 200;
-        const wordCount = doc.body.raw.split(/\s+/).length;
-        return Math.ceil(wordCount / wordsPerMinute);
-      },
-    },
-  },
-}));
 
 export const Project = defineDocumentType(() => ({
   name: 'Project',
@@ -200,7 +131,7 @@ export const Page = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: './content',
-  documentTypes: [Post, Project, Page],
+  documentTypes: [Project, Page],
   mdx: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [

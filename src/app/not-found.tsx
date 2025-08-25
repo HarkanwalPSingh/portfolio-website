@@ -4,7 +4,7 @@ import { Section } from '@/components/ui/section';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Home, Search, ArrowLeft, Mail, FileText, FolderOpen } from 'lucide-react';
+import { Home, Search, ArrowLeft, Mail, FolderOpen } from 'lucide-react';
 
 export default function NotFound() {
   return (
@@ -66,7 +66,7 @@ export default function NotFound() {
 
             <div className="space-y-4">
               <h3 className="text-lg font-semibold">Popular Pages</h3>
-              <div className="grid gap-3 md:grid-cols-3">
+              <div className="grid gap-3 md:grid-cols-2">
                 <Button variant="outline" className="h-auto p-4" asChild>
                   <Link href="/about" className="flex flex-col gap-2">
                     <div className="flex items-center gap-2">
@@ -83,16 +83,6 @@ export default function NotFound() {
                       <Badge variant="secondary">Projects</Badge>
                     </div>
                     <span className="text-sm text-muted-foreground">View my work portfolio</span>
-                  </Link>
-                </Button>
-                
-                <Button variant="outline" className="h-auto p-4" asChild>
-                  <Link href="/blog" className="flex flex-col gap-2">
-                    <div className="flex items-center gap-2">
-                      <FileText className="h-4 w-4" />
-                      <Badge variant="secondary">Blog</Badge>
-                    </div>
-                    <span className="text-sm text-muted-foreground">Read technical articles</span>
                   </Link>
                 </Button>
               </div>

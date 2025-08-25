@@ -91,7 +91,7 @@ export default function Home() {
       {/* Featured Work Section */}
       <Section background="muted">
         <Container>
-        <div className="mb-12">
+        <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold">Featured Works</h2>
           <p className="text-muted-foreground">
             Some of the projects I&apos;ve been working on
