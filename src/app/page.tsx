@@ -13,57 +13,76 @@ export default function Home() {
       {/* Hero Section */}
       <Section>
         <Container>
-          <div className="max-w-4xl">
-          <div className="mb-8">
-            <h2 className="mb-6 text-4xl font-bold md:text-6xl">
-              Hi, I am{' '}
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Harkanwalpreet
-              </span>
-              ,<br />
-              Senior Software Engineer
-            </h2>
-            <p className="max-w-2xl text-lg text-muted-foreground md:text-xl">
-              I&apos;m a Senior Software Engineer at Twilio with 6+ years of
-              experience building large-scale distributed systems, privacy-compliant 
-              architectures, and high-performance solutions. I specialize in backend 
-              development with Python, Go, Scala, and Java.
-            </p>
-          </div>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
+              {/* Text Content */}
+              <div className="order-2 lg:order-1">
+                <h2 className="mb-6 text-4xl font-bold md:text-5xl xl:text-6xl">
+                  Hi, I am{' '}
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    Harkanwal
+                  </span>
+                  ,<br />
+                  Senior Software Engineer
+                </h2>
+                <p className="max-w-2xl text-lg text-muted-foreground md:text-xl mb-8">
+                  I&apos;m a Senior Software Engineer at Twilio with 6+ years of
+                  experience building large-scale distributed systems, privacy-compliant 
+                  architectures, and high-performance solutions. I specialize in backend 
+                  development with Python, Go, Scala, and Java.
+                </p>
 
-          <div className="mb-12 flex flex-wrap items-center gap-4">
-            <Button size="lg" asChild>
-              <a href="/portfolio-website/resume.pdf" target="_blank" className="inline-flex items-center gap-2">
-                <Download className="h-4 w-4" />
-                Download Resume
-              </a>
-            </Button>
-            <Button variant="outline" size="lg" asChild>
-              <Link href="/projects">View My Work</Link>
-            </Button>
-            <Button variant="ghost" size="lg" asChild>
-              <Link href="/contact">Contact Me</Link>
-            </Button>
-          </div>
+                <div className="mb-8 flex flex-wrap items-center gap-4">
+                  <Button size="lg" asChild>
+                    <a href="/portfolio-website/harkanwal-singh-resume.pdf" target="_blank" className="inline-flex items-center gap-2">
+                      <Download className="h-4 w-4" />
+                      Download Resume
+                    </a>
+                  </Button>
+                  <Button variant="outline" size="lg" asChild>
+                    <Link href="/projects">View My Work</Link>
+                  </Button>
+                  <Button variant="ghost" size="lg" asChild>
+                    <Link href="/contact">Contact Me</Link>
+                  </Button>
+                </div>
 
-          {/* Social Links */}
-          <div className="flex gap-4">
-            <Button variant="outline" size="icon" asChild>
-              <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer">
-                <Github className="h-4 w-4" />
-              </a>
-            </Button>
-            <Button variant="outline" size="icon" asChild>
-              <a href="https://www.linkedin.com/in/harkanwalpsingh/" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="h-4 w-4" />
-              </a>
-            </Button>
-            <Button variant="outline" size="icon" asChild>
-              <a href="mailto:harkanwal.p.singh@gmail.com">
-                <Mail className="h-4 w-4" />
-              </a>
-            </Button>
-          </div>
+                {/* Social Links */}
+                <div className="flex gap-4">
+                  <Button variant="outline" size="icon" asChild>
+                    <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer">
+                      <Github className="h-4 w-4" />
+                    </a>
+                  </Button>
+                  <Button variant="outline" size="icon" asChild>
+                    <a href="https://www.linkedin.com/in/harkanwalpsingh/" target="_blank" rel="noopener noreferrer">
+                      <Linkedin className="h-4 w-4" />
+                    </a>
+                  </Button>
+                  <Button variant="outline" size="icon" asChild>
+                    <a href="mailto:harkanwal.p.singh@gmail.com">
+                      <Mail className="h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
+              </div>
+
+              {/* Profile Picture */}
+              <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+                <div className="relative">
+                  <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl bg-gradient-to-br from-blue-500/10 to-purple-500/10">
+                    <img 
+                      src="/portfolio-website/harkanwal-profile.png"
+                      alt="Harkanwalpreet Singh - Senior Software Engineer"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  {/* Decorative elements */}
+                  <div className="absolute -top-4 -right-4 w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-80"></div>
+                  <div className="absolute -bottom-6 -left-6 w-12 h-12 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 opacity-60"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </Container>
       </Section>
