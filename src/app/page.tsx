@@ -4,7 +4,8 @@ import { Container } from '@/components/ui/container';
 import { Section } from '@/components/ui/section';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Github, Linkedin, Mail, Download, ExternalLink } from 'lucide-react';
+import { Mail, Download, ExternalLink } from 'lucide-react';
+import { SiGithub, SiLinkedin } from 'react-icons/si';
 
 export default function Home() {
   return (
@@ -51,12 +52,12 @@ export default function Home() {
                 <div className="flex gap-4">
                   <Button variant="outline" size="icon" asChild>
                     <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer">
-                      <Github className="h-4 w-4" />
+                      <SiGithub className="h-4 w-4" />
                     </a>
                   </Button>
                   <Button variant="outline" size="icon" asChild>
                     <a href="https://www.linkedin.com/in/harkanwalpsingh/" target="_blank" rel="noopener noreferrer">
-                      <Linkedin className="h-4 w-4" />
+                      <SiLinkedin className="h-4 w-4" />
                     </a>
                   </Button>
                   <Button variant="outline" size="icon" asChild>
@@ -90,7 +91,7 @@ export default function Home() {
       {/* Featured Work Section */}
       <Section background="muted">
         <Container>
-        <div className="mb-12">
+        <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold">Featured Works</h2>
           <p className="text-muted-foreground">
             Some of the projects I&apos;ve been working on
@@ -120,7 +121,7 @@ export default function Home() {
                 Live Demo
               </Button>
               <Button variant="ghost" size="sm" className="gap-2">
-                <Github className="h-3 w-3" />
+                <SiGithub className="h-3 w-3" />
                 Source
               </Button>
               </div>
@@ -146,7 +147,7 @@ export default function Home() {
                 Live Demo
               </Button>
               <Button variant="ghost" size="sm" className="gap-2">
-                <Github className="h-3 w-3" />
+                <SiGithub className="h-3 w-3" />
                 Source
               </Button>
               </div>

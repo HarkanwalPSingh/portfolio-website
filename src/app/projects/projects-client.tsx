@@ -223,10 +223,12 @@ export function ProjectsClient() {
         <Section>
           <Container>
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-primary"></span>
-                Featured Projects
-              </h2>
+              <div className="text-center mb-6">
+                <h2 className="text-2xl font-bold flex items-center justify-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-primary"></span>
+                  Featured Projects
+                </h2>
+              </div>
               
               <Grid cols={1} responsive={{ lg: 2 }} gap="lg">
                 {featuredProjects.map((project) => (
@@ -330,10 +332,12 @@ export function ProjectsClient() {
           <Container>
             <div className="max-w-6xl mx-auto">
               {featuredProjects.length > 0 && (
-                <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-muted-foreground"></span>
-                  All Projects
-                </h2>
+                <div className="text-center mb-6">
+                  <h2 className="text-2xl font-bold flex items-center justify-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-muted-foreground"></span>
+                    All Projects
+                  </h2>
+                </div>
               )}
               
               <Grid cols={1} responsive={{ md: 2, lg: 3 }} gap="lg">

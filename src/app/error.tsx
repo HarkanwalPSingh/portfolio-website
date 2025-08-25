@@ -102,7 +102,7 @@ export default function Error({
 
             <div className="mt-8 space-y-4">
               <h3 className="text-lg font-semibold">Popular Pages</h3>
-              <div className="grid gap-3 md:grid-cols-3">
+              <div className="grid gap-3 md:grid-cols-2">
                 <Button variant="outline" className="h-auto p-4" asChild>
                   <Link href="/about" className="flex flex-col gap-2">
                     <Badge variant="secondary">About</Badge>
@@ -114,13 +114,6 @@ export default function Error({
                   <Link href="/projects" className="flex flex-col gap-2">
                     <Badge variant="secondary">Projects</Badge>
                     <span className="text-sm text-muted-foreground">View my work portfolio</span>
-                  </Link>
-                </Button>
-                
-                <Button variant="outline" className="h-auto p-4" asChild>
-                  <Link href="/blog" className="flex flex-col gap-2">
-                    <Badge variant="secondary">Blog</Badge>
-                    <span className="text-sm text-muted-foreground">Read technical articles</span>
                   </Link>
                 </Button>
               </div>

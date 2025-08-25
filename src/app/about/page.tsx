@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { MDXContent } from '@/components/mdx-content';
 import { generateSEO } from '@/lib/seo';
-import { Github, Linkedin, Mail, Twitter, Download, MapPin, Calendar } from 'lucide-react';
+import { Mail, Download, MapPin, Calendar } from 'lucide-react';
 
 export async function generateMetadata() {
   const page = allPages.find((page) => page.slug === 'about');
@@ -246,59 +246,6 @@ export default function AboutPage() {
         </Container>
       </Section>
 
-      {/* Connect Section */}
-      <Section background="muted">
-        <Container>
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">Let&apos;s Connect</h2>
-            <p className="text-muted-foreground mb-8">
-              Always open to discussing new opportunities, collaborations, or just having a chat about technology
-            </p>
-            
-            <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
-              <Button size="sm" asChild>
-                <a href="/portfolio-website/harkanwal-singh-resume.pdf" target="_blank" className="gap-2">
-                  <Download className="h-4 w-4" />
-                  Download Resume
-                </a>
-              </Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="/contact" className="gap-2">
-                  <Mail className="h-4 w-4" />
-                  Get In Touch
-                </a>
-              </Button>
-            </div>
-
-            <div className="flex flex-wrap items-center justify-center gap-3">
-              <Button variant="outline" size="sm" asChild>
-                <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <Github className="h-4 w-4" />
-                  GitHub
-                </a>
-              </Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="https://www.linkedin.com/in/harkanwalpsingh/" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <Linkedin className="h-4 w-4" />
-                  LinkedIn
-                </a>
-              </Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="https://twitter.com/factbot_cereal" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <Twitter className="h-4 w-4" />
-                  Twitter
-                </a>
-              </Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="mailto:harkanwal.p.singh@gmail.com" className="gap-2">
-                  <Mail className="h-4 w-4" />
-                  Email
-                </a>
-              </Button>
-            </div>
-          </div>
-        </Container>
-      </Section>
     </div>
   );
 }

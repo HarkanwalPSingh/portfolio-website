@@ -14,13 +14,11 @@ import {
   Phone, 
   MapPin, 
   Clock,
-  Github,
-  Linkedin,
-  Twitter,
   Send,
   CheckCircle,
   AlertCircle
 } from 'lucide-react';
+import { SiGithub, SiLinkedin, SiX } from 'react-icons/si';
 
 export function ContactClient() {
   const [formData, setFormData] = useState({
@@ -87,20 +85,20 @@ export function ContactClient() {
 
   const socialLinks = [
     {
-      icon: <Github className="h-5 w-5" />,
+      icon: <SiGithub className="h-5 w-5" />,
       label: 'GitHub',
       value: 'HarkanwalPSingh',
       href: 'https://github.com/HarkanwalPSingh'
     },
     {
-      icon: <Linkedin className="h-5 w-5" />,
+      icon: <SiLinkedin className="h-5 w-5" />,
       label: 'LinkedIn',
       value: 'harkanwalpsingh',
       href: 'https://www.linkedin.com/in/harkanwalpsingh/'
     },
     {
-      icon: <Twitter className="h-5 w-5" />,
-      label: 'Twitter',
+      icon: <SiX className="h-5 w-5" />,
+      label: 'X',
       value: '@factbot_cereal',
       href: 'https://twitter.com/factbot_cereal'
     }
