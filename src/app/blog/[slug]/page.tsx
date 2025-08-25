@@ -14,7 +14,7 @@ import {
   User, 
   ArrowLeft,
   Share2,
-  Twitter,
+  X,
   Linkedin,
   Link as LinkIcon
 } from 'lucide-react';
@@ -221,8 +221,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         rel="noopener noreferrer"
                         className="gap-2"
                       >
-                        <Twitter className="h-4 w-4" />
-                        Twitter
+                        <X className="h-4 w-4" />
+                        X
                       </a>
                     </Button>
                     <Button variant="outline" size="sm" asChild>

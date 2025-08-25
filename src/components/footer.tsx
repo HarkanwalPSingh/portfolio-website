@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, X } from 'lucide-react';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -10,10 +10,10 @@ const navigation = [
 ];
 
 const social = [
-  { name: 'GitHub', href: '#', icon: Github },
-  { name: 'LinkedIn', href: '#', icon: Linkedin },
-  { name: 'Twitter', href: '#', icon: Twitter },
-  { name: 'Email', href: 'mailto:hello@example.com', icon: Mail },
+  { name: 'GitHub', href: 'https://github.com/HarkanwalPSingh', icon: Github },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/harkanwalpsingh/', icon: Linkedin },
+  { name: 'X', href: 'https://twitter.com/factbot_cereal', icon: X },
+  { name: 'Email', href: 'mailto:harkanwal.p.singh@gmail.com', icon: Mail },
 ];
 
 export function Footer() {

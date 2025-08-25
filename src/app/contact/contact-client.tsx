@@ -16,7 +16,7 @@ import {
   Clock,
   Github,
   Linkedin,
-  Twitter,
+  X,
   Send,
   CheckCircle,
   AlertCircle
@@ -99,8 +99,8 @@ export function ContactClient() {
       href: 'https://www.linkedin.com/in/harkanwalpsingh/'
     },
     {
-      icon: <Twitter className="h-5 w-5" />,
-      label: 'Twitter',
+      icon: <X className="h-5 w-5" />,
+      label: 'X',
       value: '@factbot_cereal',
       href: 'https://twitter.com/factbot_cereal'
     }

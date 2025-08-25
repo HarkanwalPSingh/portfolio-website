@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { MDXContent } from '@/components/mdx-content';
 import { generateSEO } from '@/lib/seo';
-import { Github, Linkedin, Mail, Twitter, Download, MapPin, Calendar } from 'lucide-react';
+import { Github, Linkedin, Mail, X, Download, MapPin, Calendar } from 'lucide-react';
 
 export async function generateMetadata() {
   const page = allPages.find((page) => page.slug === 'about');
@@ -285,8 +285,8 @@ export default function AboutPage() {
               </Button>
               <Button variant="outline" size="sm" asChild>
                 <a href="https://twitter.com/factbot_cereal" target="_blank" rel="noopener noreferrer" className="gap-2">
-                  <Twitter className="h-4 w-4" />
-                  Twitter
+                  <X className="h-4 w-4" />
+                  X
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
