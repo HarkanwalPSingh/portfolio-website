@@ -37,7 +37,7 @@ export default function AboutPage() {
   const skills = {
     languages: ['Python', 'Go', 'Scala', 'Java', 'JavaScript/TypeScript', 'C++', 'Bash', 'SQL'],
     frameworks: ['Spring Boot', 'Node.js', 'React', 'FastAPI', 'Finatra', 'Conductor', 'Airflow', 'Spark', 'Hadoop'],
-    cloud: ['AWS (EC2, ECS, Lambda, S3, DynamoDB, Step Functions, Kinesis)', 'Kubernetes', 'Docker', 'Terraform', 'Cloudflare'],
+    cloud: ['Kubernetes', 'Docker', 'Terraform','AWS', 'EC2', 'ECS', 'Lambda', 'S3', 'DynamoDB', 'Step Functions', 'Kinesis', 'Cloudfront', 'Cloudflare'],
     data: ['Kafka', 'Redis', 'Elasticsearch', 'Trino', 'Snowflake', 'Databricks', 'Athena'],
     observability: ['Datadog', 'Grafana', 'CloudWatch']
   };
@@ -57,11 +57,6 @@ export default function AboutPage() {
       period: '4+ Years',
       title: 'Cloud & DevOps',
       description: 'AWS services, Kubernetes, and infrastructure automation'
-    },
-    {
-      period: '3+ Years',
-      title: 'Cost Optimization',
-      description: 'Query optimization and resource efficiency improvements'
     },
     {
       period: '2+ Years',
