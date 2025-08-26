@@ -16,10 +16,7 @@ import {
   Clock,
   Send,
   CheckCircle,
-  AlertCircle,
-  Download,
-  FolderOpen,
-  User
+  AlertCircle
 } from 'lucide-react';
 import { SiGithub, SiLinkedin, SiX } from 'react-icons/si';
 
@@ -336,19 +333,19 @@ export function ContactClient() {
                 <CardContent className="space-y-2">
                   <Button variant="outline" className="w-full justify-start" asChild>
                     <a href="/portfolio-website/resume.pdf" target="_blank">
-                      <Download className="w-4 h-4 mr-2" />
+                      <Badge variant="secondary" className="mr-2">PDF</Badge>
                       Download Resume
                     </a>
                   </Button>
                   <Button variant="outline" className="w-full justify-start" asChild>
                     <Link href="/projects">
-                      <FolderOpen className="w-4 h-4 mr-2" />
+                      <Badge variant="secondary" className="mr-2">Work</Badge>
                       View Projects
                     </Link>
                   </Button>
                   <Button variant="outline" className="w-full justify-start" asChild>
                     <a href="/about">
-                      <User className="w-4 h-4 mr-2" />
+                      <Badge variant="secondary" className="mr-2">Info</Badge>
                       About Me
                     </a>
                   </Button>
