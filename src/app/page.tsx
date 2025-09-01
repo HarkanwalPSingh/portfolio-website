@@ -123,7 +123,7 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button variant="outline" asChild>
-                  <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer" className="gap-2">
+                  <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2">
                     <SiGithub className="h-4 w-4" />
                     Browse Code
                   </a>
