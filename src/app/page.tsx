@@ -4,7 +4,7 @@ import { Container } from '@/components/ui/container';
 import { Section } from '@/components/ui/section';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Mail, Download, ExternalLink } from 'lucide-react';
+import { Mail, Download } from 'lucide-react';
 import { SiGithub, SiLinkedin } from 'react-icons/si';
 
 export default function Home() {
@@ -92,64 +92,42 @@ export default function Home() {
       <Section background="muted">
         <Container>
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold">Featured Works</h2>
+          <h2 className="mb-4 text-3xl font-bold">Projects Coming Soon</h2>
           <p className="text-muted-foreground">
-            Some of the projects I&apos;ve been working on
+            I&apos;m currently working on documenting my projects with detailed case studies
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2">
-          {/* Project 1 */}
+        <div className="grid gap-8 md:grid-cols-1 max-w-2xl mx-auto">
+          {/* Work in Progress Notice */}
           <Card className="hover-lift">
-            <CardContent className="p-6">
-              <div className="mb-4">
-                <Badge variant="info" className="mb-3">
-                  Web Development
+            <CardContent className="p-8 text-center">
+              <div className="mb-6">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-muted flex items-center justify-center">
+                  <span className="text-2xl">🚧</span>
+                </div>
+                <Badge variant="outline" className="mb-4">
+                  Work in Progress
                 </Badge>
-              <h3 className="mb-2 text-xl font-semibold">
-                Portfolio Project 2024
-              </h3>
-              <p className="text-muted-foreground">
-                This modern portfolio website built with Next.js 15, TypeScript,
-                and Tailwind CSS. Features dark mode, animations, and a modern
-                design system.
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <Button variant="outline" size="sm" className="gap-2">
-                <ExternalLink className="h-3 w-3" />
-                Live Demo
-              </Button>
-              <Button variant="ghost" size="sm" className="gap-2">
-                <SiGithub className="h-3 w-3" />
-                Source
-              </Button>
+                <h3 className="mb-4 text-xl font-semibold">
+                  Project Documentation In Progress
+                </h3>
+                <p className="text-muted-foreground mb-6 leading-relaxed">
+                  I&apos;m currently working on detailed case studies of my professional and personal projects.
+                </p>
               </div>
-            </CardContent>
-          </Card>
-
-          {/* Project 2 */}
-          <Card className="hover-lift">
-            <CardContent className="p-6">
-              <div className="mb-4">
-                <Badge variant="secondary" className="mb-3">
-                  Serverless App
-                </Badge>
-              <h3 className="mb-2 text-xl font-semibold">TwitterAPI V2</h3>
-              <p className="text-muted-foreground">
-                Experimenting with AI tools to create tweet content and images.
-                Features serverless functions on GCP with CRON-based scheduling.
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <Button variant="outline" size="sm" className="gap-2">
-                <ExternalLink className="h-3 w-3" />
-                Live Demo
-              </Button>
-              <Button variant="ghost" size="sm" className="gap-2">
-                <SiGithub className="h-3 w-3" />
-                Source
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <Button asChild>
+                  <Link href="/projects">
+                    View Progress
+                  </Link>
+                </Button>
+                <Button variant="outline" asChild>
+                  <a href="https://github.com/HarkanwalPSingh" target="_blank" rel="noopener noreferrer" className="gap-2">
+                    <SiGithub className="h-4 w-4" />
+                    Browse Code
+                  </a>
+                </Button>
               </div>
             </CardContent>
           </Card>
